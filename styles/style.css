@@ -121,14 +121,13 @@ nav li a {
 }
 
 /* main body section */
-
 /*  freatures section*/
 .feature-container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 85px 200px 130px 200px;
-    gap: 84px;
+    justify-content: space-around;
+    margin: 70px 230px;
+    gap: 4.5rem;
 }
 .feature-pic-container{
     display: grid;
