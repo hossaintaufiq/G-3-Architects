@@ -63,7 +63,7 @@ nav li a {
     margin-top: 116px;
     margin-bottom: 25px;
     color:#131313;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
 }
 
@@ -86,14 +86,39 @@ nav li a {
     border-radius: 8px;
     background: #FF900E;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     width: 180px;
     height: 64px;
     flex-shrink: 0;
     border: 0px white;
+    carsor:pointer;
 }
 
 .banner-image{
     border-radius: 8px;
+    width: 100%;
 }
+/* resposive media quaries for header */
+
+/* responsive to mobile devices */
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* responsive to tablet devices */
+@media screen and (max-width:960px){
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+
+/*  freatures section*/
