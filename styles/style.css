@@ -92,7 +92,7 @@ nav li a {
     height: 64px;
     flex-shrink: 0;
     border: 0px white;
-    carsor:pointer;
+    /* carsor:pointer; */
 }
 
 .banner-image{
@@ -121,4 +121,55 @@ nav li a {
 }
 
 /* main body section */
+
 /*  freatures section*/
+.feature-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 85px 200px 130px 200px;
+    gap: 84px;
+}
+.feature-pic-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.picture{
+    border-radius: 8px;
+}
+.features-title{
+    color:  #727272;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.text-1{
+    color: #131313;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.text-2{
+    color: #FF900E;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.features-description{
+    color:#727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+
+}
+.features-button{
+    width: 180px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF900E;
+font-size: 1.25rem;
+font-weight: 600;
+color: white;
+border: 0px white ;
+
+}
